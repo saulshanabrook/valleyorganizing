@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sku": {
+      "value": "F1"
+    },
+    "linuxFxVersion": {
+      "value": "ruby|2.7.6"
+    },
+    "repositoryUrl": {
+      "value": "https://github.com/discourse/discourse"
+    },
+    "branch": {
+      "value": "main"
+    }
+  }
+}
